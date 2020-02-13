@@ -51,6 +51,6 @@ I have identified a few possible shortcomings for my implemented pipeline and li
 
 Some improvements:
 
-1.One improvement could be to clean the code for this pipeline, ideally the pipeline should be all contained within a class, i defined a class FindLanes to wrap the helper function, this was in order to keep a history state for the left and right lanes, but the entire pipeline should be wrapped in this class.
-2.Based on the quality of the detected lane lines, an improvment could be to auto adjust the tuning parameters to minimise error, something like a machine vision solution.
+1. One improvement could be to clean the code for this pipeline, ideally the pipeline should be all contained within a class, i defined a class FindLanes to wrap the helper function, this was in order to keep a history state for the left and right lanes, but the entire pipeline should be wrapped in this class.
+2. Based on the quality of the detected lane lines, an improvment could be to auto adjust the tuning parameters to minimise error, something like a machine vision solution.
 
